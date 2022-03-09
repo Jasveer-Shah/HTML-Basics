@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family: 'verdana', Times;">
+    <div style="background-image: url('https://images.news18.com/ibnlive/uploads/2021/03/1615540466_pjimage-10.jpg?im=FitAndFill,width=1200,height=900'); padding:80px;border-radius: 12px; background-size: cover;">
+
+        <p style="padding: 10px;color: white;font-size: 20px; border-bottom: 1px solid;">Audio</p>
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+    </div>
+    <div class="videodiv">
+
+        <p>Video and nesting tags</p>
+        <p style="background-color: antiquewhite; padding: 10px;border-radius: 10px;font-family: 'verdana', Times, serif; color: red;">
+            Change you tube audio file to audio mp3 file at -  
+            <strong style="text-underline-offset: 3px;color: rgb(221, 113, 12)!important;"><a style="font-family: 'verdana', Times !important; color: rgb(144, 72, 4)!important;" href="//ytmp3.cc/uu138cc/" target="_blank">//ytmp3.cc/uu138cc/</a></strong></p>
+        <video width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+    <div style="background-color: blanchedalmond; margin-top: 30px; padding:30px; font-style: oblique;color: blue;font-weight: 800;border-radius: 20px;">
+        <p>SVG Element</p>
+        <svg class="svgg" width="400" height="400">
+            <circle cx='200' cy='200' r='150' stroke='blue' stroke-width='10' fill='orange'/>   
+        </svg>
+    </div>
+    <div>
+        <svg width="14cm" height="9cm" viewBox="0 0 1200 400"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>Example ellipse01 - examples of ellipses</desc>
+
+  <!-- Show outline of canvas using 'rect' element -->
+  <rect x="1" y="1" width="1198" height="398"
+        fill="none" stroke="blue" stroke-width="2" />
+
+  <g transform="translate(300 200)">
+    <ellipse rx="250" ry="100"
+          fill="red"  />
+  </g>
+
+  <ellipse transform="translate(900 100) rotate(-30)" 
+        rx="250"  ry="100"
+        fill="none" stroke="blue" stroke-width="50" />
+
+</svg>
+    </div>
+    <div class="tablediv"  style="background-color: beige; border: 2px solid gray; padding: 30px; margin-top: 30px;">
+         <h3 style="color: rgb(131, 76, 4);">Table Template</h3>
+         <p style="width:500px; color:rgb(117, 79, 29)">A table is a structured set of data made up of rows and columns
+              (tabular data). A table allows you to quickly and easily 
+              look up values that indicate some kind of connection between
+               different types of data
+         </p>
+         <table style="width: 500px; height: 200px;">
+             <tr style="background-color: rgb(204, 118, 5); border: 1px solid rgb(114, 5, 5); padding:5px;">
+                 <th >table cell1</th>
+                 <th style="text-align: center;">cell2</th>
+                 <th style="text-align: center;">cell3</th>
+                 <th style="text-align: center;">cell4</th>
+             </tr>
+             <tr style="background-color: rgb(109, 64, 5); border: 1px solid brown; padding:5px;">
+                <td style="text-align: center;">table cell1</td>
+                <td style="text-align: center;">hello</td>
+                <td style="text-align: center;">hello</td>
+                <td style="text-align: center;">hello</td>
+            </tr>
+            <tr style="background-color: rgb(78, 46, 4); border: 1px solid brown; padding:5px;">
+                <td style="text-align: center;">table cell1</td>
+                <td style="text-align: center;">hello</td>
+                <td style="text-align: center;">hello</td>
+                <td style="text-align: center;">hello</td>
+            </tr>
+         </table>
+     </div>
+
+     <div class="text-bui" style="background-color: rgb(3, 119, 119);padding: 30px;margin-top: 30px;color: white;">
+        <p><b>b</b> / <u>u</u>  / <i>i</i>  tags</p>
+        <!-- scientific names -->
+<p>
+    The Ruby-throated Hummingbird (<i style="color: rgb(253, 200, 135);">Archilochus colubris</i>)
+    is the most common hummingbird in Eastern North America.
+  </p>
+  
+  <!-- foreign words -->
+  <p>
+    The menu was a sea of exotic words like <i 
+    style="color: rgb(253, 200, 135);"  lang="uk-latn">vatrushka</i>,
+    <i style="color: rgb(253, 200, 135);" lang="id">nasi goreng</i> and <i 
+    style="color: rgb(253, 200, 135); "lang="fr">soupe à l'oignon</i>.
+  </p>
+  
+  <!-- a known misspelling -->
+  <p>
+    Someday I'll learn how to <u style="color: rgb(196, 253, 105);" style="text-decoration-line: underline; text-decoration-style: wavy;">spel</u> better.
+  </p>
+  
+  <!-- Highlight keywords in a set of instructions -->
+  <ol>
+    <li>
+      <b style="color: rgb(34, 250, 196);">Slice</b> two pieces of bread off the loaf.
+    </li>
+    <li>
+      <b>Insert</b> a tomato slice and a leaf of
+      lettuce between the slices of bread.
+    </li>
+  </ol>
+     </div>
+     <div style="border: 5px solid gray; margin-top: 30px;padding: 30px;background-color: rgb(234, 235, 229);">
+        <h1>Basic HTML Animals </h1>
+        <p>This is the first paragraph in our page.<p>
+        <p>It introduces our animals.</p> 
+        <h2>The Llama</h2>
+        <p style="width: 500px;">Our Llama is a big fan of list items. When she spies a patch of them on a web page, she will eat them like sweets, licking her lips as she goes.</p>
+         <h2>The Anaconda</h2>
+         <p style="width: 500px;">The crafty anaconda likes to slither around the page, travelling rapidly by way of anchors to sneak up on his prey.</p>
+     </div>
+
+     <div 
+     style="border: 5px solid gray; margin-top: 30px;padding: 30px;background-color: rgb(235, 234, 231);"
+     class="list_tags">
+        <h1>Looking at lists<h1>
+            <p style="width: 500px;">Turn the following list of my favorite vegetables into an unordered list.</p>
+          <ul>
+            <li>Cucumber</li>
+            <li>Broccoli</li>
+            <li>Asparagus</li>
+            <li>Pepper</li>
+         </ul>
+            <p>Turn the following directions into an ordered list.</p>
+          
+          <ol>
+            <li>First knock on the door When prompted,</li>
+            <li>say the magic word Wait </li>
+            <li>for at least 5 seconds </li>
+            <li>Turn the handle and push</li>
+         </ol>
+     </div>
+     <div style="background-color: rgb(240, 240, 238);margin-top: 30px; padding: 30px;">
+        <h1 style="color: rgb(56, 92, 92);">Emphasis and importance</h1>
+            <hr>
+        <p>There are two things I care about — <strong style="color: purple;">music and friends</strong>.<br> Someday I might be able to get my friends interested in each other,
+             and my <em style="color: purple;">music!</em></p>
+     </div>
+
+     <div class="debug" style="background-color: rgb(25, 9, 41);color: white;padding: 30px;margin-top: 30px;">
+            <h3>Debug HTML</h3>
+            <hr>
+            <ol>
+                <li>Use browser developer tools to debug HTML</li>
+                <li>unclosed elements</li>
+                <li>badly nested elements</li>
+                <li>unclosed attributes</li>
+                <li>missing closing or opening double quotes</li>
+            </ol>
+     </div>
+     <div>
+         <h2><a href="https://developer.mozilla.org/en-US/docs/Glossary/Information_architecture">Information Architechture</a></h2>
+     </div>
+</body>
+</html>
